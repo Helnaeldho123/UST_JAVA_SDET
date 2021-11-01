@@ -13,8 +13,8 @@ public void initialise() {
 	check.setService(service);
 }
 public void testcasel() {
-	Student s = new Student("keerthana",24);
+	Student s = new Student("Helna",22);
 	check.setStudent(s);
-	when(service.display(s)).thenReturn("keerthana");
+	when(service.display(s)).thenReturn("Helna");
 }
 }
